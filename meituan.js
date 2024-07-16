@@ -13,7 +13,7 @@ cron: 2 0,10,15,17,21 * * *
 */
 
 const Env = require('./Env.js');
-const { TYQLDG_API, base64_encode } = require('./basic/tyqldg');
+const { TYQLDG_API, base64_encode } = require('./tyqldg');
 const $ = new Env("美团");
 const got = require("got");
 const envPrefix = "MT_",
