@@ -23,7 +23,7 @@ export ELM_Thread=3
 cron: 57 0,9 * * *
 */
 //const Env=require('./basic/Env');
-const {TYQLDG_API,CkToJson,JsonToCK}=require('./basic/tyqldg');
+const {TYQLDG_API,CkToJson,JsonToCK}=require('./tyqldg');
 const $ = new Env("饿了么"),
 got = require("got"),
 {CookieJar} = require("tough-cookie"),
