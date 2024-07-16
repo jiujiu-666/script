@@ -23,9 +23,9 @@ import threading
 #from cryptography.hazmat.primitives import padding
 #from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 #from cryptography.hazmat.backends import default_backend
-from Crypto.Cipher import DES3
-from Crypto.Util.Padding import pad
-from Crypto.Random import get_random_bytes
+from Crypto.Cipher import Crypto
+from Crypto.Util.Padding import Crypto
+from Crypto.Random import Crypto
 
 
 # mtgurl
