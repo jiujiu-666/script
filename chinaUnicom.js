@@ -20,7 +20,7 @@ export chinaUnicomCookie="a3e4c1ff25da2xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 cron: 1 0,7,20 * * *
 const $ = new Env("中国联通");
-
+*/
 const _0x4c672b = _0x4a9430("中国联通"),
   _0x2bba68 = require("got"),
   _0x2bbc1d = require("path"),
